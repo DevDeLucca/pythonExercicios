@@ -8,6 +8,10 @@ if idade == 18:
 elif idade < 18:
     saldo = 18 - idade
     print('Você não possui idade suficiente para se alistar'.format(saldo))
+    ano = atual + saldo
+    print('Seu alistamento será em {}'.format(ano))
 elif idade > 18:
     saldo = idade - 18
     print('Você ja deveria ter se alistado há {} anos'.format(saldo))
+    ano = atual - saldo
+    print('Voce deveria ter se alistado em {}'.format(ano))
