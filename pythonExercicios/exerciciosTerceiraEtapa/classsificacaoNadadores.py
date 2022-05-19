@@ -1,4 +1,5 @@
 from datetime import date
+
 atual = date.today().year
 nasci = int(input('Entre com a data de nascimento: '))
 idade = atual - nasci
